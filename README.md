@@ -1,1 +1,1 @@
-[placeholder]!(sharkzz.png)
+![placeholder](sharkzz.png)
