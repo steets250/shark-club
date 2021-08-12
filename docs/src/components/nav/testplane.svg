@@ -1,8 +1,4 @@
-import { Link } from "react-router-dom";
-
-export function Plane () {
-    return (
-      <Link to="/"><svg width="376" height="65" viewBox="0 0 450 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="376" height="65" viewBox="0 0 376 65" fill="none" xmlns="http://www.w3.org/2000/svg">
 <ellipse cx="6" cy="15" rx="3" ry="14" fill="#D2D2D2"/>
 <ellipse cx="6" cy="43" rx="3" ry="14" fill="#D2D2D2"/>
 <ellipse cx="13" cy="29" rx="13" ry="4" fill="#737373"/>
@@ -43,8 +39,3 @@ export function Plane () {
 </filter>
 </defs>
 </svg>
-</Link>
-  );  
-}
-
-export default Plane

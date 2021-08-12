@@ -9,10 +9,13 @@ export function Navigation () {
                 <div class="plane">
                 <Plane/>
                 </div>
+                <div class="cloud1">
+                initiation
+                </div>
             </div>
             <div class="wave">
             <Wave />
-            </div>    
+            </div>  
         </div>  
         );  
 }
