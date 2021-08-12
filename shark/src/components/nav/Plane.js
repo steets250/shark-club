@@ -1,0 +1,46 @@
+export function Plane () {
+    return (
+      <svg width="350" height="9vh" viewBox="0 0 350 auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="6" cy="15" rx="3" ry="14" fill="#D2D2D2"/>
+      <ellipse cx="6" cy="43" rx="3" ry="14" fill="#D2D2D2"/>
+      <ellipse cx="13" cy="29" rx="13" ry="4" fill="#737373"/>
+      <line x1="111" y1="25.5" x2="135.042" y2="25.5" stroke="#868686"/>
+      <ellipse cx="63.5" cy="20.5" rx="14.5" ry="12.5" fill="#AFDBDB"/>
+      <path d="M11 22C11 20.8954 11.8954 20 13 20H26V38H13C11.8954 38 11 37.1046 11 36V22Z" fill="#737373"/>
+      <path d="M99.8383 5.63171C102.681 2.2845 107.587 0.902909 111.097 3.54103C118.229 8.9001 113.456 14.1759 113.201 23.9935C112.891 35.9375 80 28.9921 80 28.9921L99.8383 5.63171Z" fill="#C82121"/>
+      <path d="M148.5 44.3305L134.621 25.5L148.5 6.66953V44.3305Z" stroke="#868686"/>
+      <g filter="url(#filter0_d)">
+      <rect x="148" y="1" width="224" height="50" fill="#F8F5DF"/>
+      <rect x="148.5" y="1.5" width="223" height="49" stroke="#C4B89B"/>
+      </g>
+      <circle cx="28.5" cy="57.6675" r="6.5" fill="#5F5F5F"/>
+      <circle cx="28.5" cy="57.6675" r="4.25" stroke="white" stroke-width="1.5"/>
+      <circle cx="101" cy="39" r="4" fill="#5F5F5F"/>
+      <circle cx="101" cy="39" r="2.375" stroke="white" stroke-width="0.75"/>
+      <path d="M24 51.6675V51.6675C27.3581 48.7281 32.548 49.4842 34.9278 53.2597L35.5 54.1675" stroke="#5F5F5F"/>
+      <rect x="28" y="37.1675" width="1" height="15" fill="#5F5F5F"/>
+      <rect x="35.5232" y="37" width="1" height="16.1489" transform="rotate(20 35.5232 37)" fill="#5F5F5F"/>
+      <rect width="1" height="9.42501" transform="matrix(-0.95377 0.300539 0.300539 0.95377 98.6023 27)" fill="#5F5F5F"/>
+      <rect width="0.85686" height="9.70361" transform="matrix(-0.827012 0.562184 0.65989 0.751362 92.7086 28.8571)" fill="#5F5F5F"/>
+      <path d="M39.2583 10.5974L41.9507 20.6623L32.3446 22.8675L29.7918 11.7469L39.2583 10.5974Z" stroke="#C4C4C4" stroke-width="2"/>
+      <path d="M24 10.4002C24 9.07459 25.0746 8 26.4002 8H35L42.1843 8.95791C42.3944 8.98593 42.602 9.0306 42.805 9.09151L47.036 10.3608C47.3345 10.4504 47.5889 10.6481 47.7493 10.9154V10.9154C48.2728 11.788 47.591 12.8873 46.5767 12.8061L36.819 12.0255C36.6067 12.0085 36.3933 12.0085 36.181 12.0255L26.5916 12.7927C25.195 12.9044 24 11.8012 24 10.4002V10.4002Z" fill="#C82121"/>
+      <path d="M19 19C19 17.3431 20.3431 16 22 16H92L110.125 23.5178C112.684 24.5791 112.56 28.2451 109.935 29.1313L79 39.5769L22.1211 41.874C20.4181 41.9427 19 40.5807 19 38.8764V19Z" fill="#C00D0D"/>
+      <path d="M19 32H86L111.5 28.5L79 39.5769L22.1211 41.874C20.4181 41.9427 19 40.5807 19 38.8764V32Z" fill="#CFCFCF"/>
+      <path d="M32 33.4002C32 32.0746 33.0746 31 34.4002 31H43L50.1843 31.9579C50.3944 31.9859 50.602 32.0306 50.805 32.0915L55.036 33.3608C55.3345 33.4504 55.5889 33.6481 55.7493 33.9154V33.9154C56.2728 34.788 55.591 35.8873 54.5767 35.8061L44.819 35.0255C44.6067 35.0085 44.3933 35.0085 44.181 35.0255L34.5916 35.7927C33.195 35.9044 32 34.8012 32 33.4002V33.4002Z" fill="#C82121"/>
+      <defs>
+      <filter id="filter0_d" x="144" y="1" width="232" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+      </filter>
+      </defs>
+      </svg>
+  );  
+}
+
+export default Plane
