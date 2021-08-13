@@ -1,7 +1,7 @@
-import './home.css'
-import Navigation from '../components/nav/Navigation';
-import Footer from '../components/footer/Footer';
-import sharkie from'./sharkie.png';
+import './home.css';
+import Navigation from '../../components/nav/Navigation';
+import Footer from '../../components/footer/Footer';
+import sharkie from'../sharkie.png';
 
 export function Home () {
     return (

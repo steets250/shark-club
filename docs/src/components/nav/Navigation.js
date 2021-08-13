@@ -16,7 +16,7 @@ export function Navigation () {
             </div>
             <div class="clouds">
                 <div class="cloud1">
-                <Link to="/">join us!</Link>
+                <Link to="/initiation">join us!</Link>
                 </div>
                 <div class="cloud2">
                 <Link to="/">sharkie shark</Link>

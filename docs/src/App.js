@@ -5,7 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from "./routes/Home"
+import Home from "./routes/Home/Home";
+import Initiation from "./routes/Initiation/Initiation";
 
 export default function App() {
   return (
@@ -14,6 +15,9 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/initiation">
+            <Initiation />
           </Route>
         </Switch>
       </div>
