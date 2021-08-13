@@ -52,9 +52,58 @@
     color: #3987BB;
 }
 
+.cloud2 {
+    background-image: url('./cloud-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 5vw;
+    margin-top: 5px;
+    width: 10vw;
+    height: auto;
+    border: green 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1vh;
+    font-size: 1.75ch;
+    font-weight: bolder;
+    color: #3987BB;
+}
 
-@media only screen and (max-width: 800px) {
+.cloud3 {
+    background-image: url('./cloud-3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 5vw;
+    margin-top: 5px;
+    width: 10vw;
+    height: auto;
+    border: purple 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1vh;
+    font-size: 1.75ch;
+    font-weight: bolder;
+    color: #3987BB;
+}
+
+
+@media only screen and (max-width: 900px) {
     .plane svg {
         max-width: 50vw;
+    }
+    .cloud1 {
+        background: none;
+    }
+    
+    .cloud2 {
+        background: none;
+    }
+    
+    .cloud3 {
+        background: none;
     }
 }
